@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gray_moon">
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:onClick="goToBasicCalculator"
+        android:text="Basic Calculator"
+        
+        android:textColor="#FFFFFF"
+		android:textSize="32sp"
+		android:background="@drawable/metro_style_blue_button"
+		android:shadowColor="#A8A8A8"
+		android:shadowDx="0"
+		android:shadowDy="0"
+		android:shadowRadius="5"
+		
+		 />
+
+    <Button
+        android:id="@+id/btnBenchMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCalculator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Benchmark Sorting Algorithms"
+        android:onClick="goToBechMark"
+        
+        
+		android:textColor="#FFFFFF"
+		android:textSize="32sp"
+		android:background="@drawable/metro_style_purple_button"
+		android:shadowColor="#A8A8A8"
+		android:shadowDx="0"
+		android:shadowDy="0"
+		android:shadowRadius="5"
+         />
+
+    <Button
+        android:id="@+id/btnJokesActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Random Jokes"
+        android:onClick="gotToRandomJokesActivity" />
+
+    <Button
+        android:id="@+id/btnPlayAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCalculator"
+        android:layout_below="@+id/btnJokesActivity"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/metro_style_blue_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Play Audio"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:onClick="playAudio" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnCalculator"
+        android:layout_below="@+id/btnPlayAudio"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/metro_style_blue_button"
+        android:onClick="stopAudio"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Stop Audio"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+</RelativeLayout>

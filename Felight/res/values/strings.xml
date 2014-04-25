@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Felight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_random_jokes">RandomJokes</string>
+	<string name="next_button">">"</string>
+	<string name="previous_button">Previous</string>
+	<string name="random_button">"Hit Me Again "</string>
+	
+	<string-array name="jokesArray">
+		<item >A man admitted he lied on his income tax return: he listed himself as the head of the household!</item>
+		<item>This is joke 2.</item>
+		<item>A rich millionaire throws a massive party for his 50th birthday. During this party, he grabs the microphone and announces to his guests that down in the garden of his mansion he has a swimming pool with two great white sharks in it. "I will give anything of mine to the man who swims across that pool." So the party continues with no events in the pool until SUDDENLY, there is a great splash and all the guests of the party run to the pool to see what has happened. In the pool a man is swimming as hard as he can and fins come out of the water and jaws are snapping and this guy just keeps on going. The sharks are gaining on him and this guy reaches the end and gets out of the pool, tired and soaked. The millionaire grabs the microphone and says, "I am a man of my word. Anything of mine I will give: my Ferraris, my house, absolutely anything, for you are the bravest man I have ever seen. So sir what will it be?" The guy grabs the microphone and says, "Why don't we start with the name of the jerk who pushed me in!"</item>
+		<item>A guy to a friend: “After three sets golf clubs and ten years of lessons, I am finally getting some fun out of golf. I quit.”</item>
+		<item>joke 4</item>
+		<item>joke 5</item>
+		<item>and joke 6</item>
+	</string-array>
+	
+</resources>
